@@ -1,0 +1,6 @@
+fv悬浮球打开功能
+adb -d shell pm grant com.fooview.android.fooview android.permission.WRITE_SECURE_SETTINGS
+adb -d shell pm grant com.fooview.android.fooview android.permission.READ_LOGS
+
+shizuku
+adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
